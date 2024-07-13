@@ -1,0 +1,217 @@
+.hero-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.hero-main-container {
+  margin: auto;
+  background: #0000000d;
+  width: 100%;
+  max-width: 1380px;
+  border-radius: 38px;
+}
+
+.hero {
+  width: 100%;
+  position: relative;
+}
+
+.hero-content {
+  padding: 75px 0 75px 60px;
+  z-index: 100px;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 80.64px;
+  color: #01060f;
+  max-width: 687px;
+  text-transform: capitalize;
+}
+
+.hero-content h1 span {
+  font-weight: 700;
+}
+
+/* Benefits */
+.benefits-container {
+  margin-top: 55px;
+  max-width: 701px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.benefit-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.benefit-container img {
+  width: 32px;
+  height: 32px;
+}
+
+.benefit-container h4 {
+  color: #01060f;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+
+/* CountDown */
+.countdown-container {
+  margin-top: 55px;
+}
+
+.countdown-container h4 {
+  color: #01060f;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.14em;
+}
+
+.countdown-container h2 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 41.6px;
+  color: #01060f;
+  text-transform: capitalize;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+  gap: 35px;
+}
+
+.timer {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 100%;
+  position: relative;
+}
+
+.timer h2 {
+  color: #01060f;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35.28px;
+}
+
+.timer p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.14em;
+  color: #01060f;
+}
+
+.timer svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+.timer circle {
+  fill: none;
+  stroke-width: 5;
+  r: 45;
+  cx: 50;
+  cy: 50;
+}
+
+.timer .circle-bg {
+  stroke: #d3d3d3;
+}
+
+.timer .circle-fg {
+  stroke: #9945ff;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s linear;
+}
+
+/* Buy Token */
+.buy-token-btn {
+  margin-top: 55px;
+  background: #9945ff;
+  width: 190px;
+  height: 52px;
+  border-radius: 44px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.68px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/* Hero Image */
+.hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .hero-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .hero-content {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .benefits-container {
+    flex-wrap: wrap;
+  }
+  .hero-content h1 {
+    font-size: 46px;
+    line-height: 67.64px;
+  }
+  .hero-content {
+    padding: 30px 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timer-container {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .hero-content h1 {
+    font-size: 29px;
+    line-height: 41.64px;
+  }
+  .benefits-container {
+    margin-top: 30px;
+  }
+  .countdown-container {
+    margin-top: 30px;
+  }
+  .buy-token-btn {
+    margin-top: 30px;
+  }
+}

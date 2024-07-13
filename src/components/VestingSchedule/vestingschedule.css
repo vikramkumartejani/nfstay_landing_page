@@ -1,0 +1,315 @@
+.vesting-token-transactions {
+  width: 100%;
+  padding: 10px;
+}
+.vesting-main-container {
+  margin: 31px auto 100px auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.vesting-token {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 17px;
+}
+
+/* Vesting Schedule */
+.vesting-schedule {
+  width: 100%;
+  max-width: 740px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.vesting-schedule h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.24px;
+  color: #01060f;
+}
+
+.vesting-schedule p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.16px;
+  color: rgba(1, 6, 15, 0.6);
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.transactions-container {
+  margin-top: 26px;
+}
+
+.transactions-container h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  color: #01060f;
+}
+
+.transaction-table {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+table {
+  min-width: 680px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table,
+tr,
+th {
+  height: 37px;
+  padding: 0 10px !important;
+}
+
+tr,
+th {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.64px;
+  text-align: center;
+  border-bottom: 1px solid #01060f14;
+}
+
+th,
+td {
+  padding: 12px 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.64px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.claim-button {
+  cursor: pointer;
+  width: 66px;
+  height: 23px;
+  border-radius: 111px;
+  border: 1px solid #20e19f;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15.12px;
+  color: #20e19f;
+  background: transparent;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.64px;
+  color: #01060f99;
+  text-transform: capitalize;
+}
+
+.pagination h3 span {
+  font-weight: 600;
+  color: #01060f;
+}
+
+.view-entities {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.64px;
+  color: #01060f;
+  text-decoration: underline;
+}
+
+/* Token Summary */
+.token-summary {
+  width: 100%;
+  max-width: 443px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.token-summary h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.24px;
+  color: #01060f;
+}
+
+.allocation {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #01060f05;
+  border: 1px solid #01060f1a;
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.allocation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.allocation-content h4 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18.9px;
+  color: #01060f99;
+}
+
+.allocation-content h2 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35.28px;
+  text-align: left;
+  color: #01060f;
+}
+
+.allocation-content h2 span {
+  font-weight: 700;
+}
+
+.locks-container {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 383px;
+  background: #01060f05;
+  border: 1px solid #01060f14;
+  border-radius: 14px;
+}
+
+.locks {
+  border-bottom: 1px solid #01060f1f;
+  flex: 1;
+  padding: 20px;
+}
+
+.locks:nth-child(1) {
+  border-right: 1px solid #01060f1f;
+}
+
+.locks div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.locks div h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18.9px;
+  color: #01060f99;
+}
+
+.locks h1 {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.2px;
+  color: #01060f;
+}
+
+.locks h1 span {
+  padding-left: 5px;
+  font-weight: 700;
+}
+
+.locks .claim {
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #01060f;
+}
+
+.next-total {
+  flex: 1;
+  padding: 20px;
+}
+
+.next-total h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #01060f;
+}
+
+.next-total div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.next-total div h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18.9px;
+  color: #01060f99;
+}
+
+.next-total:nth-child(1) {
+  border-right: 1px solid #01060f1f;
+}
+
+@media screen and (max-width: 768px) {
+  .vesting-schedule-chart {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .vesting-token {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .token-summary {
+    padding: 25px 15px;
+  }
+  .vesting-schedule {
+    padding: 25px 15px;
+  }
+  .vesting-schedule p {
+    font-size: 14px;
+  }
+  .token-summary h2 {
+    font-size: 22px;
+  }
+  .locks h1 {
+    font-size: 17px;
+  }
+  .locks .claim {
+    font-size: 14px;
+  }
+  .next-total h3 {
+    font-size: 13px;
+  }
+  .next-total div h3 {
+    font-size: 13px;
+  }
+  .locks div h3 {
+    font-size: 13px;
+  }
+}

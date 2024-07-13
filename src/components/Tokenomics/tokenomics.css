@@ -1,0 +1,124 @@
+.tokenomics-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.tokenomics-main-container {
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 20px;
+  margin: auto;
+  background: #fff;
+  margin-top: 100px;
+  padding: 40px;
+}
+
+.tokenomics-main-container h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50.4px;
+  margin-bottom: 41px;
+}
+
+.tokenomics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ 
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.box-container {
+  width: 380px;
+  border-radius: 14px;
+  padding: 20px 25px;
+  background: #01060f08;
+  border: 1px solid #01060f14;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.box-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.box-content h3 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+  color: #01060f;
+}
+
+.box-content h4 {
+  color: rgba(1, 6, 15, 0.6);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .tokenomics-main-container .chart2 {
+    width: 80%;
+  }
+  .tokenomics-main-container .chart1 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .tokenomics {
+    flex-direction: column;
+    align-items: start;
+  }
+  .boxes-container {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tokenomics-main-container .chart1 {
+    width: 70%;
+  }
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .tokenomics-main-container {
+    margin-top: 50px;
+    padding: 25px 15px;
+  }
+  .tokenomics-main-container h2 {
+    font-size: 29px;
+    line-height: 30.4px;
+  }
+ 
+}
+
+@media screen and (max-width: 490px) {
+  .box-container {
+    width: 310px;
+  }
+  .box-content h3 {
+    font-size: 12px;
+  }
+  .box-content h4 {
+    font-size: 12px;
+  }
+  .tokenomics-main-container .chart1 {
+    margin-left: -40px;
+    width: 100%;
+}
+}

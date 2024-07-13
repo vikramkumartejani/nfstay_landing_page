@@ -1,0 +1,506 @@
+.steps {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.steps-main-container {
+  background: rgba(255, 255, 255, 1);
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  margin-top: 31px;
+  border-radius: 20px;
+  padding: 40px 39px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.title-container h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50.4px;
+  color: #01060f;
+  max-width: 554px;
+}
+
+.title-container h1 span {
+  font-weight: 700;
+}
+
+.star-p {
+  width: 273px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.star-p img {
+  width: 25px;
+  height: 25;
+}
+
+.star-p p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #01060f;
+}
+
+.step-one-container {
+  margin-top: 44px;
+}
+
+.step-one-container h4 {
+  color: #9945ff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.step-one-container h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #01060f;
+  margin-bottom: 5px;
+}
+
+.step-one-container p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+.step-one-boxes {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.step-one-box {
+  padding: 20px;
+  width: 260px;
+  background: #20e19f14;
+  border-radius: 14px;
+}
+
+.step-one-box .shrimp-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.step-one-box .shrimp-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28.8px;
+  color: #01060f;
+}
+
+.step-one-box .shrimp-content img {
+  width: 42px;
+  height: 42px;
+}
+
+.step-one-box h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #01060f;
+}
+
+.bonus-content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.bonus-content .bonus-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.12px;
+  color: #01060f;
+}
+
+.bonus-content img {
+  width: 18px;
+  height: 18px;
+}
+
+.step-one-box h5 {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+.month-content {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.month-content h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #01060f;
+}
+
+.month-content img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Step Two & Three  */
+.step-two-three-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Step Two */
+.step-two-container {
+  width: 100%;
+  max-width: 534px;
+  padding: 40px;
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+.step-two-container h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9945ff;
+}
+
+.step-two-container h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #01060f;
+}
+
+.step-two-container p {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+/* Investment Amount */
+.investment-amount-container {
+  margin: 25px 0 30px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.invest-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 325px;
+  height: 54px;
+  border-radius: 12px;
+  background: #f1f4f9;
+  padding: 5px 25px 5px 20px;
+}
+
+.invest-input input {
+  width: 200px;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+.invest-input h3 {
+  border-left: 1px solid rgba(1, 6, 15, 0.1);
+  padding-left: 26px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+.investment-amount-container h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21px;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.price h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #01060f;
+}
+
+.price h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+/* Bonus & Stays */
+.bonus-stays {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #0000001f;
+  border-radius: 12px;
+  width: 456px;
+  height: 100px;
+  padding: 24px 30px;
+}
+
+.title-bonus-stays {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.title-bonus-stays h4 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+.price-bonus-stays {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.price-bonus-stays h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #01060f;
+}
+
+.price-bonus-stays h4:nth-child(2) {
+  color: #9945ff;
+}
+
+/* Step Three */
+.step-three-container {
+  width: 100%;
+  height: 403px;
+  max-width: 646px;
+  border-radius: 20px;
+  padding: 40px;
+  background: #ffffff;
+}
+
+.step-three-container h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9945ff;
+}
+
+.step-three-container h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #01060f;
+}
+
+.step-three-container p {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+.make-payment {
+  margin-top: 25px;
+  width: 100%;
+  max-width: 531px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.make-payment .crypto {
+  width: 216px;
+  height: 49px;
+  border-radius: 44px;
+  border: none;
+  background: #7f87981f;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  color: #2b2828;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.make-payment span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+.make-payment .card {
+  width: 260px;
+  height: 49px;
+  border-radius: 44px;
+  border: none;
+  background: #9945ff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.powered-by {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  justify-content: end;
+  margin-right: 140px;
+}
+
+.powered-by h4 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(1, 6, 15, 0.6);
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+
+  .step-two-three-container {
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .step-one-boxes {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .steps-main-container {
+    padding: 40px 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .step-three-container {
+    padding: 40px 20px;
+    height: auto;
+  }
+
+  .make-payment {
+    flex-direction: column;
+  }
+
+  .powered-by {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .step-two-container {
+    padding: 40px 20px;
+  }
+
+  .bonus-stays {
+    width: 100%;
+  }
+
+  .step-one-box {
+    padding: 15px 15px;
+    width: 100%;
+  }
+
+  .step-one-box h1 {
+    font-size: 35px;
+  }
+
+  .bonus-content {
+    margin-top: 10px;
+  }
+
+  .month-content img {
+    margin-top: -3px;
+  }
+
+  .bonus-content img {
+    margin-top: -4px;
+  }
+
+  .title-container h1 {
+    font-size: 27px;
+    line-height: 33.4px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .investment-amount-container {
+    flex-direction: column;
+  }
+  
+  .price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+}
